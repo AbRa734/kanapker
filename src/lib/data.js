@@ -28,7 +28,6 @@ export const kanapka4 = {
 }
 
 /* NAJLEPSZE KANAPKI */
-
 export const kanapka5 = {
     name:"Kanapka 5",
     number:8,
@@ -57,6 +56,7 @@ export const kanapka8 = {
     img:"https://st.depositphotos.com/1884173/1837/i/380/depositphotos_18372693-stock-photo-sandwich-with-salmon.jpg",
 }
 
+/* KATEGORIE */
 export const menuItems = [
     "Dostępne kanapki",
     "Kategorie",
