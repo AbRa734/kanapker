@@ -4,6 +4,8 @@ import Gallery from "../../components/sandwichPage/Gallery";
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import {kanapka1, kanapka2, kanapka3, kanapka4, kanapka5, kanapka6, kanapka7, kanapka8} from "../../lib/data";
 import { IoStarSharp } from "react-icons/io5";
+import { FaShoppingBasket } from "react-icons/fa";
+import AdditionalOptions from "../../components/sandwichPage/AdditionalOptions";
 
 function Page({params}) {
     const defaultContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
@@ -21,9 +23,9 @@ function Page({params}) {
     ]
     const selectedSandwich = sandwichList[number-1];
 
-    return <section className="flex max-w-[1024px] mx-auto px-6 mt-16">
+    return <section className="sm:flex max-w-[1024px] mx-auto px-6 mt-16">
         <Gallery/>
-        <div className="ml-10">
+        <div className="sm:ml-10">
             <div className="flex justify-between items-center">
                 <h3 className="text-2xl mb-3">{selectedSandwich?.name}</h3>
                 <div className="bg-black text-white px-2 py-1 rounded-xl flex items-center justify-center">
@@ -33,9 +35,10 @@ function Page({params}) {
             </div>
             <div>
                 <p className="font-light mb-5">{selectedSandwich?.description}</p>
+                <AdditionalOptions/>
                 <div className="flex justify-between items-center">
-                    <div>Łączna cena: {selectedSandwich?.price}zł</div>
-                    <button className="bg-black text-white px-3 py-1.5 rounded-xl">Dodaj do koszyka</button>
+                    <div className="bg-[#E3E3E3] rounded-xl px-3 py-1.5"><span className="font-light ">Łączna cena:</span> <span>{selectedSandwich?.price}zł</span></div>
+                    <button className="bg-black text-white px-3 py-1.5 rounded-xl flex justify-center items-center"><FaShoppingBasket className="mr-1.5"/> Dodaj do koszyka</button>
                 </div>
                 <div className="ml-[-20px] mt-10">
                     <Accordion variant="splitted">

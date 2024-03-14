@@ -1,12 +1,13 @@
 import React from 'react';
+import AdditionalOptionsRow from "../../components/sandwichPage/AdditionalOptionsRow";
 
 function AdditionalOptions(props) {
     return (
-        <div className="flex">
-            <div className="bg-[#E3E3E3]">
+        <>
+            <AdditionalOptionsRow/>
+            <AdditionalOptionsRow/>
 
-            </div>
-        </div>
+        </>
     );
 }
 

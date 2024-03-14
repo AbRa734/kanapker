@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <main className="max-w-[1024px] mx-auto">
           <Slider/>
-          <Categories/>
+          <Categories classParam="mt-20"/>
           <PopularSandwiches/>
           <BestSandwiches/>
       </main>

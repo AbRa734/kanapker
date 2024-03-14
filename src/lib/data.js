@@ -107,3 +107,38 @@ export const sandwichImagesGallery = [
     "https://st2.depositphotos.com/1326558/7501/i/450/depositphotos_75015171-stock-photo-sandwiches-with-chicken-burger-and.jpg",
     "https://st2.depositphotos.com/1006753/11412/i/450/depositphotos_114126744-stock-photo-grilled-chicken-sandwich.jpg",
 ]
+
+export const addional = [
+    {
+        name:"Plaster pomidora",
+        img:"/pomidor.png"
+    },
+    {
+        name:"Plaster sera żółtego",
+        img:"/ser.png"
+    },
+    {
+        name:"Plaster szynki",
+        img:"/szynka.png"
+    },
+    {
+        name:"Dwie pieczarki",
+        img:"/pieczarki.png"
+    },
+    {
+        name:"Krążek czerwonej cebuli",
+        img:"/cebula.png"
+    },
+    {
+        name:"Plaster ogórka",
+        img:"/ogorek.png"
+    },
+    {
+        name:"Plaster z łososia",
+        img:"/losos.png"
+    },
+    {
+        name:"Tuńczyk",
+        img:"/tunczyk.png"
+    },
+]
