@@ -1,9 +1,9 @@
 import React from 'react';
 import { IoMdClose } from "react-icons/io";
 
-function SingleFormLine({item}) {
+function SingleFormLine({item, key}) {
     return (
-        <div className="flex justify-between items-center w-full mb-3">
+        <div className="flex justify-between items-center w-full mb-3" key={item?.name+key}>
             <div className="flex items-center">
                 <div className="bg-[#E3E3E3] p-1 rounded-xl">
                     <img width={40} src={`${item?.img}`}/>
