@@ -1,6 +1,6 @@
 import React from 'react';
-import {Image} from "@nextui-org/react";
-import MainPageImageRow from "../../components/mainPage/MainPageImageRow";
+import MainPageImageRow from "../components/mainPage/MainPageImageRow";
+import {Link} from "@nextui-org/react";
 
 function Page() {
     return (
@@ -12,7 +12,7 @@ function Page() {
                     <p className="max-w-sm text-justify mr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque, tortor id condimentum porta, ipsum enim dignissim nunc, hendrerit aliquam arcu felis rhoncus velit. Phasellus sed sodales mauris. Aenean cursus, ligula at pharetra maximus, elit ligula molestie odio, nec semper mi libero id nunc. Morbi a nulla tincidunt, viverra lectus a, semper mauris.</p>
                     <p className="max-w-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque, tortor id condimentum porta, ipsum enim dignissim nunc, hendrerit aliquam arcu felis rhoncus velit. Phasellus sed sodales mauris. Aenean cursus, ligula at pharetra maximus, elit ligula molestie odio, nec semper mi libero id nunc. Morbi a nulla tincidunt, viverra lectus a, semper mauris.</p>
                 </div>
-                <button className="mb-10 mt-5 bg-black text-white px-3 py-1.5 rounded-xl flex justify-center items-center">Zapoznaj się z ofertą</button>
+                <Link href="/oferta" className="max-w-48 mb-10 mt-5 bg-black text-white px-3 py-1.5 rounded-xl flex justify-center items-center">Zapoznaj się z ofertą</Link>
             </section>
             <section className="mx-6 block md:flex items-center">
                 <div className="hidden md:block min-w-96">
@@ -20,11 +20,11 @@ function Page() {
                     <MainPageImageRow/>
                     <MainPageImageRow/>
                 </div>
-                <div className="ml-10">
+                <div className="md:ml-10">
                     <h3 className="text-4xl mb-5">Nasze menu</h3>
                     <p className="text-justify mr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque, tortor id condimentum porta, ipsum enim dignissim nunc, hendrerit aliquam arcu felis rhoncus velit. Phasellus sed sodales mauris. Aenean cursus, ligula at pharetra maximus, elit ligula molestie odio, nec semper mi libero id nunc. Morbi a nulla tincidunt, viverra lectus a, semper mauris.</p>
                     <p className="text-justify mt-5 mr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris scelerisque, tortor id condimentum porta, ipsum enim dignissim nunc, hendrerit aliquam arcu felis rhoncus velit. Phasellus sed sodales mauris. Aenean cursus, ligula at pharetra maximus, elit ligula molestie odio, nec semper mi libero id nunc. Morbi a nulla tincidunt, viverra lectus a, semper mauris.</p>
-                    <button className="mb-10 mt-5 bg-black text-white px-3 py-1.5 rounded-xl flex justify-center items-center">Zapoznaj się z ofertą</button>
+                    <Link href="/oferta" className="max-w-48 mb-10 mt-5 bg-black text-white px-3 py-1.5 rounded-xl flex justify-center items-center">Zapoznaj się z ofertą</Link>
                 </div>
             </section>
         </main>

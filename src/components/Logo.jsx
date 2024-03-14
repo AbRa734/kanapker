@@ -6,7 +6,7 @@ import Image from "next/image";
 function Logo() {
     return (
         <div>
-            <Link href="/">
+            <Link href="/oferta">
                 <Image src={logo} alt="" width={70} height={40}/>
             </Link>
         </div>

@@ -1,7 +1,7 @@
-import Slider from "../components/Slider";
-import Categories from "../components/Categories";
-import PopularSandwiches from "../components/PopularSandwiches";
-import BestSandwiches from "../components/BestSandwiches";
+import Slider from "../../components/Slider";
+import Categories from "../../components/Categories";
+import PopularSandwiches from "../../components/PopularSandwiches";
+import BestSandwiches from "../../components/BestSandwiches";
 
 export default function Home() {
   return (

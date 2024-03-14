@@ -4,6 +4,7 @@ import person1 from "../../public/person1.png";
 import person2 from "../../public/person2.png";
 import person3 from "../../public/person3.png";
 import star from "../../public/star.png";
+import {Link} from "@nextui-org/react";
 
 function Reviews() {
     return (
@@ -17,7 +18,7 @@ function Reviews() {
                     <p className="pt-2 py-2 pr-2">5/5</p>
                 </div>
             </div>
-            <button className="mt-5 md:mt-0 rounded-xl bg-black text-white p-2 px-7">Sprawdź teraz!</button>
+            <Link href="/kanapka_1" className="mt-5 md:mt-0 rounded-xl bg-black text-white p-2 px-7">Sprawdź teraz!</Link>
         </div>
     );
 }
